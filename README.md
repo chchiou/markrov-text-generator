@@ -58,29 +58,29 @@ the extra words.
 
 ## Enough with the theoretical formalisms, show me the code! ##
 
-Here's a more complex implementation: is a second order 
+This is a more complex implementation: it's a second order 
 Markrov Chain (it jumps from couple to couple of words) 
 that trains on tweets taken from the Twitter Streaming API.
 
 It also parses the tweet to leverage on its syntax 
-(punctuation mainly) in order no to mess the meaning too much.
+(punctuation mainly) in order not to mess too much the meaning up.
 
 There are some more secret tricks to get better (= funnier) text. 
 If you want to know more read `markrov-text-generator.pdf`, it's in the repo
-(ofcourse you need to understand Italian, but that's just a detail).
+(of course you need to understand Italian, but that's just a detail!).
 
 ## Implementation details and requirements ##
 2 python scripts: one feeds the database from twitter, one generates text.
 
 **Requirements:** 
 - Python 2.7
-- twewpy (and API keys)
+- tweepy (and API keys)
 - sqlite3
 
 ## Instructions ##
 
 1. Get the API keys from Twitter and put them in `token-stream.py` *(you can find lots of guides on how to do that)*
 2. Launch token-stream.py and let it gather tweets for some time (careful, your database is gonna get fat fast)
-3. Open a python shell and `import markov.py`. Generate delirius sentences by calling `generate('$')` you can also use different starting points (`$` means to start from any sentence).
+3. Open a python shell and `import markov.py`. Generate delirious sentences by calling `generate('$')` you can also use different starting points, just type the word you'd like the sentence to start with (`$` means to start from any sentence).
 4. ???
 5. PROFIT?
