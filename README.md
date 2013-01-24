@@ -71,6 +71,7 @@ If you want to know more read `markrov-text-generator.pdf`, it's in the repo
 
 ## Implementation details and requirements ##
 2 python scripts: one feeds the database from twitter, one generates text.
+1 empty SQLite3 database.
 
 **Requirements:** 
 - Python 2.7
