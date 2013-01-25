@@ -53,8 +53,8 @@ A Markrov Chain also learns the following transitions:
 	SHUT	=(THE)=>			FUCK
 	THE 	=(FUCK)=>			UP
 
-And when you compose the text just remember to add 
-the extra words.
+Please notice the iperspace jump. Also, when you compose 
+the text don't forget to add the extra words.
 
 ## Enough with the theoretical formalisms, show me the code! ##
 
@@ -63,11 +63,12 @@ Markrov Chain (it jumps from couple to couple of words)
 that trains on tweets taken from the Twitter Streaming API.
 
 It also parses the tweet to leverage on its syntax 
-(punctuation mainly) in order not to mess too much the meaning up.
+(punctuation mainly) in order not to mess up the meaning too much.
 
 There are some more secret tricks to get better (= funnier) text. 
-If you want to know more read `markrov-text-generator.pdf`, it's in the repo
-(of course you need to understand Italian, but that's just a detail!).
+If you want to know more read `markrov-text-generator.pdf`, it's in the repo.
+*Of course you need to understand Italian, but that's a minor detail! 
+Just wear your best moustache and gesticulate while reading it out loud, you will easily understand it, trust me!*
 
 ## Implementation details and requirements ##
 2 python scripts: one feeds the database from twitter, one generates text.
@@ -75,13 +76,32 @@ If you want to know more read `markrov-text-generator.pdf`, it's in the repo
 
 **Requirements:** 
 - Python 2.7
-- tweepy (and API keys)
+- tweepy (and Twitter API keys)
 - sqlite3
+
+
+### A WORD OF CAUTION: ###
+This might not be the worst implementation you're gonna find 
+on github and it does scale up to few GBs of data 
+(I personally got the DB up to ~5GB) but there's a lot of dumb crap in here.
+It was a project worth 2 points/credits/dunno-how-people-calls-them, 
+which is very little if you don't know and means I couldn't spend too much time building it (I didn't even build it alone).
+Also, Markrov Chains might aswell be a real thing, with a proper name
+and proper theory. I don't know. If that's not the case remember 
+to commend me for the next Turing Award!
+
 
 ## Instructions ##
 
 1. Get the API keys from Twitter and put them in `token-stream.py` *(you can find lots of guides on how to do that)*
-2. Launch token-stream.py and let it gather tweets for some time (careful, your database is gonna get fat fast)
+2. Launch `token-stream.py` and let it gather tweets for some time (careful, your database is gonna get fat fast)
 3. Open a python shell and `import markov.py`. Generate delirious sentences by calling `generate('$')` you can also use different starting points, just type the word you'd like the sentence to start with (`$` means to start from any sentence).
 4. ???
 5. PROFIT?
+6. *Please let me know if you find any extraordinarly funny sentence! (PROFIT!)*
+
+A quote from a text generated trough this script:
+	
+	I'm not fucking rocket science!
+
+
