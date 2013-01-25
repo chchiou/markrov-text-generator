@@ -15,8 +15,9 @@ A Markov Chain is a way of representing certain
 stochastic processes as probabilistic automatons.
 
 You can use Markov Chains to generate random text 
-which looks like it's been translated on babelfish 
-back and forth multiple times.
+which looks like it's been range(translated_on_babelfish 
+back_and_forth_multiple_times, 
+cut_from_old_newspapers_as_single_lines_and_then_rearranged).
 
 Read more about Markov Chains:
 http://en.wikipedia.org/wiki/Markov_chain
