@@ -4,7 +4,7 @@ A Random Text Generator based on Markrov Chains
 What's a Markrov Chain?
 -----------------------
 
-Yep, the `r` is there on purpuose.
+Yep, the `r` is there on purpose.
 
 If you already know what a Markov Chain is and 
 how you can use it to generate random text, 
@@ -27,7 +27,7 @@ http://en.wikipedia.org/wiki/Markov_chain
 *First of all, yes, the name is made up.*
 
 A Markrov Chains is a Markov Chain that has an 
-extra twist: it can jump trough iperspace and
+extra twist: it can jump trough hyperspace and
 generate better text than normal Markov Chains would.
 How? By cheating of course!
 
@@ -54,7 +54,7 @@ A Markrov Chain also learns the following transitions:
 	SHUT	=(THE)=>			FUCK
 	THE 	=(FUCK)=>			UP
 
-Please notice the iperspace jump. Also, when you compose 
+Please notice the hyperspace jump. Also, when you compose 
 the text don't forget to add the extra words.
 
 ## Enough with the theoretical formalisms, show me the code! ##
@@ -74,7 +74,7 @@ If you want to know more read `markrov-text-generator.pdf`, it's in the repo.
 Just wear your best moustache and gesticulate while reading it out loud, you will easily understand it, trust me!*
 
 ## Implementation details and requirements ##
-2 python scripts: one feeds the database from twitter, one generates text.
+2 python scripts: one feeds the database from twitter, the other generates text.
 1 empty SQLite3 database.
 
 **Requirements:** 
