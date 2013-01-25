@@ -15,9 +15,9 @@ A Markov Chain is a way of representing certain
 stochastic processes as probabilistic automatons.
 
 You can use Markov Chains to generate random text 
-which looks like it's been range(translated_on_babelfish 
-back_and_forth_multiple_times, 
-cut_from_old_newspapers_as_single_lines_and_then_rearranged).
+which looks like it's been either translated back and 
+forth trough babelfish (first order), 
+or it is the result of rearranging the lines of a book (higher orders).
 
 Read more about Markov Chains:
 http://en.wikipedia.org/wiki/Markov_chain
@@ -31,7 +31,7 @@ extra twist: it can jump trough iperspace and
 generate better text than normal Markov Chains would.
 How? By cheating of course!
 
-The idea is simple:
+The idea is simple.
 
 Given the following training sentece (by Linus):
 
@@ -68,6 +68,8 @@ It also parses the tweet to leverage on its syntax
 
 There are some more secret tricks to get better (= funnier) text. 
 If you want to know more read `markrov-text-generator.pdf`, it's in the repo.
+
+
 *Of course you need to understand Italian, but that's a minor detail! 
 Just wear your best moustache and gesticulate while reading it out loud, you will easily understand it, trust me!*
 
@@ -85,7 +87,7 @@ Just wear your best moustache and gesticulate while reading it out loud, you wil
 This might not be the worst implementation you're gonna find 
 on github and it does scale up to few GBs of data 
 (I personally got the DB up to ~5GB) but there's a lot of dumb crap in here.
-It was a project worth 2 points/credits/dunno-how-people-calls-them, 
+It was a project worth 2 points/credits/dunno-how-people-call-them, 
 which is very little if you don't know and means I couldn't spend too much time building it (I didn't even build it alone).
 Also, Markrov Chains might aswell be a real thing, with a proper name
 and proper theory. I don't know. If that's not the case remember 
@@ -101,7 +103,7 @@ to commend me for the next Turing Award!
 5. PROFIT?
 6. *Please let me know if you find any extraordinarly funny sentence! (PROFIT!)*
 
-A quote from a text generated trough this script:
+A quote from a text generated trough this script, to give you a more complete understanding of the cosmos:
 	
 	I'm not fucking rocket science!
 
