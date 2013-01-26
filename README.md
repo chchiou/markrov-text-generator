@@ -88,7 +88,7 @@ This might not be the worst implementation you're gonna find
 on github and it does scale up to few GBs of data 
 (I personally got the DB up to ~5GB) but there's a lot of dumb crap in here.
 It was a project worth 2 points/credits/dunno-how-people-call-them, 
-which is very little if you don't know and means I couldn't spend too much time building it (I didn't even build it alone).
+which is very little if you don't know and means that I couldn't spend too much time building it (I didn't even build it alone).
 Also, Markrov Chains might aswell be a real thing, with a proper name
 and proper theory. I don't know. If that's not the case remember 
 to commend me for the next Turing Award!
