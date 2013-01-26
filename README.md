@@ -103,7 +103,7 @@ to commend me for the next Turing Award!
 5. PROFIT?
 6. *Please let me know if you find any extraordinarly funny sentence! (PROFIT!)*
 
-A quote from a text generated trough this script, to give you a more complete understanding of the cosmos:
+A quote from a text generated trough this script, to give you a deeper understanding of the cosmos:
 	
 	I'm not fucking rocket science!
 
