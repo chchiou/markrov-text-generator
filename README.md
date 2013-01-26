@@ -24,7 +24,7 @@ http://en.wikipedia.org/wiki/Markov_chain
 
 ## Markrov Chains ##
 
-*First of all, yes, the name is made up.*
+*First of all, yes, the name is made up, it's a mix between Markov and my surname.*
 
 A Markrov Chains is a Markov Chain that has an 
 extra twist: it can jump trough hyperspace and
