@@ -26,7 +26,7 @@ http://en.wikipedia.org/wiki/Markov_chain
 
 *First of all, yes, the name is made up, it's a mix between Markov and my surname.*
 
-A Markrov Chains is a Markov Chain that has an 
+A Markrov Chain is a Markov Chain that has an 
 extra twist: it can jump trough hyperspace and
 generate better text than normal Markov Chains would.
 How? By cheating of course!
