@@ -91,3 +91,6 @@ def ricerca_new(mode, pprev, prev=None):
 		print '!!! ', next
 	multi = random.choice(spl_cur.fetchall())
 	return multi
+
+if __name__ == '__main__':
+	generate('$')
