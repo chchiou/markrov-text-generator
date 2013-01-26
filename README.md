@@ -17,7 +17,7 @@ stochastic processes as probabilistic automatons.
 You can use Markov Chains to generate random text 
 which looks like it's been either translated back and 
 forth trough babelfish (first order), 
-or it is the result of rearranging the lines of a book (higher orders).
+or composed by rearranging the lines of a newspaper (higher orders).
 
 Read more about Markov Chains:
 http://en.wikipedia.org/wiki/Markov_chain
@@ -33,7 +33,7 @@ How? By cheating of course!
 
 The idea is simple.
 
-Given the following training sentece (by Linus):
+Given the following training sentece (by Linus, https://lkml.org/lkml/2012/12/23/75 ):
 
 `MAURO SHUT THE FUCK UP`
 
