@@ -57,7 +57,7 @@ def generate(word):
 
 	tweet = "".join([part for part in after_up])
 
-	print tweet
+	print(tweet)
 
 	# spl_cur.close()
 	# spl_conn.close()
@@ -87,8 +87,8 @@ def ricerca_new(mode, pprev, prev=None):
 		else:
 			spl_cur.execute("select * from multigrammi where (pprev = ? and middle_size = ?)", (pprev, triang))
 	except Exception as e:
-		print e
-		print '!!! ', next
+		print(e)
+		print('!!! ', next)
 	multi = random.choice(spl_cur.fetchall())
 	return multi
 
